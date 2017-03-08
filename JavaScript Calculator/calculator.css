@@ -1,0 +1,112 @@
+body {
+	background-color: rgb(77, 77, 51);
+}
+
+#body {
+	height: 420px;
+	width: 300px;
+	background-color: rgb(204, 204, 179);
+	position: relative;
+	margin: auto;
+	top: 70px;
+	border-radius: 10%;
+}
+
+.button {
+	height: 50px;
+	width: 50px;
+	font-size: 20px;
+	color: white;
+	background-color: gray;
+	border-radius: 15%;
+	border: 1px solid black;
+	margin-left: 3px;
+	margin-right: 3px;
+	box-shadow: 3px 3px 10px black;
+	outline: none;
+	position: relative;
+}
+
+
+.button:active {
+	 top: 1px;
+	}
+
+.clear {
+	background-color: red;
+	height: 40px;
+}
+
+.row {
+	position: relative;
+	margin-left: 35px;
+}
+
+.top {
+	top: 108px;
+}
+
+.second {
+	top: 118px;
+}
+
+.third {
+	top: 128px;
+}
+
+.fourth {
+	top: 138px;
+}
+
+.fifth {
+	top: 38px;
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Arvo', serif;
+	position: absolute;
+	margin-left: 60px;
+	margin-top: 5px;
+}
+
+#equals {
+	height: 110px;
+	position: relative;
+	top: 88px;
+	left: 215px;
+}
+
+#zero {
+	width: 110px;
+}
+
+.screen {
+	position: absolute;
+	top: 35px;
+	margin-left: 40px;
+	width: 75%;
+	text-align: right;
+	height: 65px;
+	border: none;
+	font-size: 30px;
+	padding-right: 5px;
+	background-color: rgb(226, 226, 219);
+	
+}
+
+#mini {
+	position: relative;
+	top: -45px;
+	font-size: 15px;
+	height: 10px;
+	
+}
+
+
+#main {
+	position: relative;
+	top: -20px;
+	
+	
+}
